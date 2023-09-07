@@ -14,6 +14,7 @@
 
   align-items: center;
   padding: 25px 30px;
+  
 }
 
 @media (max-width: 700px) {
@@ -22,12 +23,15 @@
     // top: 0;
     flex-direction: row;
     // gap: 5px;
-    top:0px;
+    top:-1px;
     justify-content: space-between;
     z-index: 999;
     gap:12px;
     width: 100%;
     overflow-x: scroll;
     // justify-content: space-between;
+  }
+  .scrolled{
+    border-bottom: 1px solid white;
   }
 }

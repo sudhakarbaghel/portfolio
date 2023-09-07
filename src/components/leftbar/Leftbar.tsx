@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import "./leftbar.scss";
 import Button from "../button/Button";
@@ -13,8 +13,13 @@ import Link from "next/link";
 type Props = {};
 
 export default function Leftbar({}: Props) {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  // Define the class name based on the scroll state
+
+  const containerClassName = isScrolled ? "scrolled" : "";
   return (
-    <div className="leftbar" style={{ color: "white" }}>
+    <div className={`leftbar ${containerClassName}`} style={{ color: "white" }}>
       <Link className="link" href="/">
         <Button title="ABOUT" Icon={About} />
       </Link>
