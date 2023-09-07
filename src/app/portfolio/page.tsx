@@ -1,4 +1,4 @@
-"use client";
+'use client'
 import Underline from "@/components/svgComps/Underline";
 
 import "./portfolio.scss";
