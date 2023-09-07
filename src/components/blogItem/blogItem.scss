@@ -2,13 +2,13 @@
   background-color: #1f1c2b;
   border-radius: 15px;
   overflow: hidden;
-
+  min-width: 250px;
   cursor: pointer;
   width: calc(50% - 20px);
   .blogItemImgWrap {
     position: relative;
     border-radius: 15px;
-  
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,6 @@
       width: 100%;
       object-fit: cover;
       height: 100%;
-   
     }
   }
 }
@@ -59,14 +58,14 @@
 .blogItem:hover .blogItemLinkBox {
   opacity: 1;
 }
-.blogItemContent{
-    padding: 20px 15px;
-    h4{
-        margin-bottom: 10px;
-    }
-    p{
-        line-height: 1.5;
-            font-size: .875rem;
-          color:  #aeb0b8bd
-    }
+.blogItemContent {
+  padding: 20px 15px;
+  h4 {
+    margin-bottom: 10px;
+  }
+  p {
+    line-height: 1.5;
+    font-size: 0.875rem;
+    color: #aeb0b8bd;
+  }
 }

@@ -61,5 +61,8 @@ body {
   .mainLayoutChild{
     flex-direction: column !important;
   }
+  .mainLayout{
+    padding-top: 50px;
+  }
   
 }

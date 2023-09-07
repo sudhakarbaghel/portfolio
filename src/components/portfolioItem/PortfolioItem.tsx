@@ -26,12 +26,10 @@ export default function PortfolioItem({
       <div className="portfolioItemWrap">
         <span>{portfolioType}</span>
         <div className="portfolioItemImg">
-          <Image
+          <img
             src={imgSrc}
             alt="Picture of the author"
-            width={300}
-            height={350}
-            style={{objectFit:"contain"}}
+          
           />
         </div>
         <div className="portfolioItemContent">

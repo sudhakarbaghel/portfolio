@@ -73,3 +73,29 @@
     }
   }
 }
+
+@media(max-width:700px) {
+  .topbar{
+    flex-direction: column;
+    // text-align: center;
+  }
+  .topbarLeft{
+    flex-direction: column;
+   
+  }
+  .verticalRule{
+    // display: none;
+    border: none;
+    border-top: 1px solid #33363d;
+  }
+  .topbarLeftRightItem{
+  margin: auto;
+  }
+  .topbarRight{
+    padding: 0px;
+    // display: none;
+  }
+  .topbarLeft ,.topbarRight{
+    width: 100% !important;
+  }
+}
