@@ -1,0 +1,39 @@
+.portfolio {
+  .portfolioOptions {
+    margin: 20px 0 20px 0;
+    display: flex;
+    gap: 25px;
+
+    font-size: 0.875rem;
+
+    color: #aeb0b8bd;
+    li:first-child {
+      list-style: none;
+    }
+    li {
+      cursor: pointer;
+    }
+  }
+  .portfolioItemWrapper{
+    display: flex;
+    transition: all ;
+    flex-wrap: wrap;
+   gap: 20px;
+
+   .portfolioItem {
+    transition: all 0.3s ease-in-out; /* Adjust the duration and easing function as needed */
+    opacity: 1;
+  }
+  
+  .hidden {
+    opacity: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    // display: none;
+  }
+   
+  }
+}
+
+

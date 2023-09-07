@@ -1,0 +1,32 @@
+.leftbar {
+  position: sticky;
+  top: 30px;
+  position: -webkit-sticky;
+
+  width: max-content;
+
+  background-color: #09080c;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  // z-index: 2;
+  border-radius: 1.5rem;
+
+  align-items: center;
+  padding: 25px 30px;
+}
+
+@media (max-width: 700px) {
+  .leftbar {
+    // position: absolute;
+    // top: 0;
+    flex-direction: row;
+    // gap: 5px;
+    top:40px;
+    justify-content: space-between;
+    z-index: 999;
+    width: 100%;
+    overflow-x: scroll;
+    // justify-content: space-between;
+  }
+}

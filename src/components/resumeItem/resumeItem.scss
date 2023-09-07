@@ -1,0 +1,52 @@
+.resumeItem {
+  line-height: 1.7;
+  font-size: 0.875rem;
+  position: relative;
+  padding: 0 20px 20px 20px;
+  border-left: 1px solid #aeb0b828;
+  margin-left: 8px;
+  display: flex;
+  flex-direction: column;
+  
+  gap:5px;
+  h3 {
+    line-height:normal;
+    margin-top: -4px;
+ 
+  }
+
+  span {
+    
+    color: #aeb0b84c;
+  }
+   
+  ul {
+    margin-top: 5px;
+    list-style-type: none;
+    color: #aeb0b8bd;
+     
+  }
+
+  ul > li:before {
+    content: "- ";
+    text-indent: -20px;
+  }
+
+  .circle {
+    background-color: #304cfd;
+    box-shadow: 0 0 0 0.29rem rgba(48, 76, 253, 0.25);
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: -5px;
+    height: 0.8rem;
+    width: 0.8rem;
+  }
+ 
+
+}
+  .resumeItem:last-child {
+   border: none;
+}
+
+ 

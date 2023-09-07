@@ -1,0 +1,22 @@
+.skill {
+  color: #aeb0b8bd;
+  font-size: 0.76rem;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  width: max-content;
+  padding: 4.5px 8px;
+  border-radius: 20px;
+  border: 1px solid #aeb0b84c;
+  background-color: #242031d5;
+
+  transition: all 0.5s ease;
+  color: lightskyblue;
+}
+.skill:hover {
+  scale: 1.05;
+//   color: white;
+  background-color: #2f2a3d00;
+
+  transform: translate(0px, -4px);
+}

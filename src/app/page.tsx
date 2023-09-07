@@ -1,95 +1,36 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Underline from "@/components/svgComps/Underline";
+import "./page.scss";
 
-export default function Home() {
+export default function About() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+    <div className="about">
+      <h1>About Me</h1>
+      <Underline />
+      <p>
+        Hello, I'm Sudhakar Singh Baghel, a passionate and skilled software
+        engineer with expertise in various technologies. I hold a B.Tech degree
+        in Electronics & Communication Engineering from Lakshmi Narain College
+        of Technology (LNCT) in Bhopal, Madhya Pradesh, India.
+      </p>
+      <p>
+        My professional journey has been focused on web development, and I have
+        gained proficiency in languages such as C++, HTML, CSS, and JavaScript.
+        I have a strong understanding of data structures, algorithms, and
+        database management systems like MySQL and MongoDB. Additionally, I have
+        experience in working with popular frameworks and libraries such as
+        Nexts.js, React.js, Node.js, Typescript, Redux, and Scss.
+      </p>
+      <p>
+        Outside of my technical pursuits, I have achieved notable success on
+        CODECHEF, with global rankings in various competitions.
+      </p>
+      <p>
+        While technology remains a significant part of my life and career, I
+        recognize the importance of embracing a well-rounded approach. By
+        actively engaging in discussions, exploring diverse interests, and being
+        open to new experiences, I strive to cultivate a balanced perspective
+        that goes beyond the boundaries of technology.
+      </p>
+    </div>
+  );
 }

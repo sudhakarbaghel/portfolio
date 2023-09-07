@@ -1,0 +1,75 @@
+.topbar {
+  color: white;
+  background-color: #09080c;
+  border-radius: 1.5rem;
+  display: flex;
+  padding: 30px;
+  gap: 8px;
+  .verticalRule {
+    border-left: 1px solid #33363d !important;
+    // height:80% ;
+  }
+
+  .topbarLeft {
+    display: flex;
+    gap: 20px;
+    width: 50%;
+
+    align-items: center;
+
+    .roles {
+      color: #aeb0b8bd;
+      font-size: 13.5px;
+      margin: 4px 0px;
+    }
+
+    .company {
+      color: #fa7268;
+    }
+    h4 {
+      margin: 0;
+      font-size: 24px;
+      span {
+        font-weight: 400;
+      }
+    }
+  }
+
+  .topbarLeftRightItem {
+    align-self: start;
+  }
+  .imgWrap {
+    border-radius: 45px;
+
+    overflow: hidden;
+    width: max-content;
+    margin-top: -70px;
+  }
+  .icons {
+    display: flex;
+    gap: 22px;
+    margin-top: 10px;
+    align-items: center;
+  }
+
+  .topbarRight {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    width: 50%;
+    gap: 20px;
+    padding-left: 20px;
+    div {
+      flex: 45%;
+      width: max-content;
+    }
+    // padding-left: 15px;
+    span {
+      color: #aeb0b8bd;
+    }
+    p {
+      color: white;
+      font-weight: 500;
+    }
+  }
+}
