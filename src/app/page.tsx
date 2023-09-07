@@ -7,7 +7,7 @@ export default function About() {
       <h1>About Me</h1>
       <Underline />
       <p>
-        Hello, I'm Sudhakar Singh Baghel, a passionate and skilled software
+        Hello, I am Sudhakar Singh Baghel, a passionate and skilled software
         engineer with expertise in various technologies. I hold a B.Tech degree
         in Electronics & Communication Engineering from Lakshmi Narain College
         of Technology (LNCT) in Bhopal, Madhya Pradesh, India.

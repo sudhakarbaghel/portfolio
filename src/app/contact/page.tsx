@@ -8,9 +8,14 @@ import Contact from "@/components/svgComps/Contact";
 import axios from "axios";
 type Props = {};
 //link : https://docs.google.com/forms/d/e/1FAIpQLSfehdpd30bOpWlUIA0vXYaiAUap8fMN4PBaF7D3oJJhjI2SMg/viewform?usp=pp_url&entry.1433760888=david&entry.1531804274=david@gmail.com&entry.2096754473=hi+im+david
+type ContactDataType = {
+  fullName: string;
+  email: string;
+  message: string;
+};
 
-export default function page({}: Props) {
-  const [contactData, setContactData] = useState({
+export default function ContactPage({}: Props) {
+  const [contactData, setContactData] = useState<ContactDataType>({
     fullName: "",
     email: "",
     message: "",
