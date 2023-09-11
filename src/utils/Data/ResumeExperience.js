@@ -1,5 +1,19 @@
 export const ExpData = [
   {
+    id: "73",
+    title: "Associate Software Developer at Opensense labs",
+    date: "Jul 2023 -  Current",
+    content: [
+      "Implemented a decoupled architecture with React as the front-end framework for a travel company's booking website.",
+      "Utilized the Ant Design (antd) library to create a visually appealing and responsive user interface.",
+      "Conducted complex API integrations to synchronize the website with external data sources, ensuring real-time data updates.",
+      "Managed version control effectively using Bitbucket and Git, employing branching strategies and continuous integration workflows for seamless team collaboration.",
+      "Engineered robust state management using Redux Toolkit to maintain a scalable and predictable application state.",
+      "Integrated React seamlessly with the Drupal CMS, resulting in a dynamic and flexible web ecosystem for content management and delivery."
+    ]
+  }
+,
+  {
     id: "72",
     title: "Software Development Engineer Intern at Areksoft Technologies",
     date: "Dec 2022 - Apr 2023",
