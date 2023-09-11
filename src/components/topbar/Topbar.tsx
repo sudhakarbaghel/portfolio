@@ -1,5 +1,5 @@
 import React from "react";
-import  "./topbar.scss";
+import "./topbar.scss";
 import Image from "next/image";
 import Pic from "../../../public/pass.jpeg";
 import Linkedin from "../svgComps/Linkedin";
@@ -50,7 +50,9 @@ export default function Topbar({}: Props) {
         </div>
         <div>
           <span>CV</span>
-          <p>Download</p>
+          <Link style={{textDecoration:'none'}} href="https://drive.google.com/drive/folders/1rsgp_pnvzJVdF5C79WSuZJ_AUjkNniS0">
+            <p>Download</p>
+          </Link>
         </div>
         <div>
           <span>Location</span>

@@ -13,27 +13,28 @@
     li {
       cursor: pointer;
     }
+    .optionSelected {
+      font-weight: 600;
+      color: rgb(175, 188, 198);
+    }
   }
-  .portfolioItemWrapper{
+  .portfolioItemWrapper {
     display: flex;
-    transition: all ;
+    transition: all;
     flex-wrap: wrap;
-   gap: 20px;
+    gap: 20px;
 
-   .portfolioItem {
-    transition: all 0.3s ease-in-out; /* Adjust the duration and easing function as needed */
-    opacity: 1;
-  }
-  
-  .hidden {
-    opacity: 0;
-    height: 0;
-    margin: 0;
-    padding: 0;
-    // display: none;
-  }
-   
+    .portfolioItem {
+      transition: all 0.1s ease-in-out; /* Adjust the duration and easing function as needed */
+      opacity: 1;
+    }
+
+    .hidden {
+      opacity: 0;
+      height: 0;
+      margin: 0;
+      padding: 0;
+      // display: none;
+    }
   }
 }
-
-
