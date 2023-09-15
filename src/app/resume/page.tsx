@@ -22,6 +22,7 @@ import ScrapingIcon from "@/components/svgComps/skillsIcon/ScrapingIcon";
 import AlgoIcon from "@/components/svgComps/skillsIcon/AlgoIcon";
 import DataStrucIcon from "@/components/svgComps/skillsIcon/DataStrucIcon";
 import TsIcon from "@/components/svgComps/skillsIcon/TsIcon";
+import AntDesignIcon from "@/components/svgComps/skillsIcon/AntdIcon"
 type Props = {};
 
 export default function Resume({}: Props) {
@@ -50,6 +51,7 @@ export default function Resume({}: Props) {
           <Skill skill="My Sql" Icon={MySqlIcon} />
           <Skill skill="Mongo DB" Icon={MongoIcon} />
           <Skill skill="Web Scraping" Icon={ScrapingIcon} />
+          <Skill skill="Ant Design" Icon={AntDesignIcon} />
         </div>
       </div>
       <h2>

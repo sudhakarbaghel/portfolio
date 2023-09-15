@@ -2,6 +2,7 @@ import Underline from "@/components/svgComps/Underline";
 import "./page.scss";
 
 export default function About() {
+  console.log("about me")
   return (
     <div className="about">
       <h1>About Me</h1>
