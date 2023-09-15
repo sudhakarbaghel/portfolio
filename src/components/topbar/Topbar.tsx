@@ -46,11 +46,21 @@ export default function Topbar({}: Props) {
       <div className="topbarRight">
         <div>
           <span>EMAIL</span>
-          <p>sudhakarsinghbaghel123321@gmail.com</p>
+          <p>
+            <Link
+              style={{ textDecoration: "none",color:'white' }}
+              href="mailto:sudhakarsinghbaghel123321@gmail.com"
+            >
+              sudhakarsinghbaghel123321@gmail.com
+            </Link>
+          </p>
         </div>
         <div>
           <span>CV</span>
-          <Link style={{textDecoration:'none'}} href="https://drive.google.com/drive/folders/1rsgp_pnvzJVdF5C79WSuZJ_AUjkNniS0">
+          <Link
+            style={{ textDecoration: "none" }}
+            href="https://drive.google.com/drive/folders/1rsgp_pnvzJVdF5C79WSuZJ_AUjkNniS0"
+          >
             <p>Download</p>
           </Link>
         </div>
