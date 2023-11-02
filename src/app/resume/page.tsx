@@ -23,6 +23,8 @@ import AlgoIcon from "@/components/svgComps/skillsIcon/AlgoIcon";
 import DataStrucIcon from "@/components/svgComps/skillsIcon/DataStrucIcon";
 import TsIcon from "@/components/svgComps/skillsIcon/TsIcon";
 import AntDesignIcon from "@/components/svgComps/skillsIcon/AntdIcon"
+import AuthIcon from "@/components/svgComps/skillsIcon/AuthIcon"
+import LinuxIcon from "@/components/svgComps/skillsIcon/LinuxIcon"
 type Props = {};
 
 export default function Resume({}: Props) {
@@ -42,13 +44,16 @@ export default function Resume({}: Props) {
           <Skill skill="HTML" Icon={HtmlIcon} />
           <Skill skill="CSS" Icon={CssIcon} />
           <Skill skill="SCSS" Icon={ScssIcon} />
+          <Skill skill="React.js" Icon={ReactIcon} />
           <Skill skill="Next.js" Icon={NextIcon} />
           <Skill skill="TypeScript.js" Icon={TsIcon } />
-          <Skill skill="React.js" Icon={ReactIcon} />
+          <Skill skill="Redux" Icon={ReduxIcon} />
           <Skill skill="Node.js" Icon={NodeIcon} />
           <Skill skill="Express.js" Icon={ExpressIcon} />
-          <Skill skill="Redux" Icon={ReduxIcon} />
           <Skill skill="My Sql" Icon={MySqlIcon} />
+          <Skill skill="Mongo DB" Icon={MongoIcon} />
+          <Skill skill="OAuth 2.O" Icon={AuthIcon} />
+          <Skill skill="Linux" Icon={LinuxIcon} />
           <Skill skill="Mongo DB" Icon={MongoIcon} />
           <Skill skill="Web Scraping" Icon={ScrapingIcon} />
           <Skill skill="Ant Design" Icon={AntDesignIcon} />

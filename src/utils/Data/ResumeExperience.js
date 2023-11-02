@@ -1,8 +1,8 @@
 export const ExpData = [
   {
     id: "73",
-    title: "Associate Software Developer at Opensense labs",
-    date: "Jul 2023 -  Current",
+    title: "Associate Software Developer Trainee at Opensense labs",
+    date: "Jul 2023 -  Oct 2023",
     content: [
       "Implemented a decoupled architecture with React as the front-end framework for a travel company's booking website.",
       "Utilized the Ant Design (antd) library to create a visually appealing and responsive user interface.",

@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import Underline from "@/components/svgComps/Underline";
 
 import "./portfolio.scss";
@@ -24,7 +24,7 @@ export default function Portfolio({}: Props) {
               (item) => item.portfolioType === selectedCategory
             );
       });
-    }, 400);
+    }, 300);
 
     return () => clearTimeout(timer);
   }, [selectedCategory]);
@@ -34,34 +34,34 @@ export default function Portfolio({}: Props) {
       <h1>Portfolio</h1>
       <Underline />
       <ul className="portfolioOptions">
-      <li
-        value="all"
-        onClick={handleSelectedCategory}
-        className={selectedCategory === "all" ? "optionSelected" : ""}
-      >
-        All
-      </li>
-      <li
-        value="Certificate"
-        onClick={handleSelectedCategory}
-        className={selectedCategory === "Certificate" ? "optionSelected" : ""}
-      >
-        Certifications
-      </li>
-      <li
-        value="Project"
-        onClick={handleSelectedCategory}
-        className={selectedCategory === "Project" ? "optionSelected" : ""}
-      >
-        Project
-      </li>
-      <li
-        value="Badge"
-        onClick={handleSelectedCategory}
-        className={selectedCategory === "Badge" ? "optionSelected" : ""}
-      >
-        Badge
-      </li>
+        <li
+          value="all"
+          onClick={handleSelectedCategory}
+          className={selectedCategory === "all" ? "optionSelected" : ""}
+        >
+          All
+        </li>
+        <li
+          value="Certificate"
+          onClick={handleSelectedCategory}
+          className={selectedCategory === "Certificate" ? "optionSelected" : ""}
+        >
+          Certifications
+        </li>
+        <li
+          value="Project"
+          onClick={handleSelectedCategory}
+          className={selectedCategory === "Project" ? "optionSelected" : ""}
+        >
+          Project
+        </li>
+        <li
+          value="Badge"
+          onClick={handleSelectedCategory}
+          className={selectedCategory === "Badge" ? "optionSelected" : ""}
+        >
+          Badge
+        </li>
       </ul>
       <div className="portfolioItemWrapper">
         {filteredItems.map((item, index) => (

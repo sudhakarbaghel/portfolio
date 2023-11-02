@@ -2,28 +2,32 @@ import Underline from "@/components/svgComps/Underline";
 import "./page.scss";
 
 export default function About() {
-  console.log("about me")
   return (
     <div className="about">
       <h1>About Me</h1>
       <Underline />
       <p>
-        Hello, I am Sudhakar Singh Baghel, a passionate and skilled software
-        engineer with expertise in various technologies. I hold a B.Tech degree
-        in Electronics & Communication Engineering from Lakshmi Narain College
-        of Technology (LNCT) in Bhopal, Madhya Pradesh, India.
+        Hello, I am <strong>Sudhakar Singh Baghel</strong>, a passionate and
+        skilled software engineer with expertise in various technologies. I hold
+        a B.Tech(2023) degree in Electronics & Communication Engineering from{" "}
+        <strong>Lakshmi Narain College of Technology (LNCT)</strong> in Bhopal,
+        Madhya Pradesh, India.
       </p>
       <p>
         My professional journey has been focused on web development, and I have
-        gained proficiency in languages such as C++, HTML, CSS, and JavaScript.
-        I have a strong understanding of data structures, algorithms, and
-        database management systems like MySQL and MongoDB. Additionally, I have
-        experience in working with popular frameworks and libraries such as
-        Nexts.js, React.js, Node.js, Typescript, Redux, and Scss.
+        gained proficiency in languages such as <strong>C++</strong>,{" "}
+        <strong>HTML</strong>, <strong>CSS</strong>, and{" "}
+        <strong>JavaScript</strong>. I have a strong understanding of data
+        structures, algorithms, and database management systems like{" "}
+        <strong>MySQL</strong> and <strong>MongoDB</strong>. Additionally, I
+        have experience in working with popular frameworks and libraries such as{" "}
+        <strong>Next.js</strong>, <strong>React.js</strong>,{" "}
+        <strong>Node.js</strong>, <strong>Typescript</strong>,{" "}
+        <strong>Redux</strong>, and <strong>Scss</strong>.
       </p>
       <p>
-        Outside of my technical pursuits, I have achieved notable success on
-        CODECHEF, with global rankings in various competitions.
+        Outside of my technical pursuits, I have achieved notable success on{" "}
+        <strong>CODECHEF</strong>, with global rankings in various competitions.
       </p>
       <p>
         While technology remains a significant part of my life and career, I

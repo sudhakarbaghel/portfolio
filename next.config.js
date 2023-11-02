@@ -8,7 +8,8 @@ const nextConfig = {
       "udemy-certificate.s3.amazonaws.com",
       "s3.amazonaws.com",
       "upload.wikimedia.org",
-      "media.licdn.com"
+      "media.licdn.com",
+      "encrypted-tbn0.gstatic.com"
     ],
   },
 };

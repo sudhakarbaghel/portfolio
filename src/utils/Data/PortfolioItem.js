@@ -128,7 +128,7 @@ const portfolioItems = [
     githubLink: null,
     techStack: "Competitive programming using c++",
     imgSrc:
-      "https://media.licdn.com/dms/image/sync/D4D27AQGPEbxYrVXqGQ/articleshare-shrink_1280_800/0/1693888049835?e=1694494800&v=beta&t=3pIdzEIvphuR-XrZjCEPIe-wSllfhzzfYIjs42MTQ9A",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpvMT69gb_MUzi831hF8xm5lcgeebh1DHEiTufBwlDkMLIbxg5",
     heading: "5⭐ (C++) on Hackerrank",
   },
 ];
