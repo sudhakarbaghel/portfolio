@@ -21,7 +21,7 @@ export default function ContactPage({}: Props) {
     message: undefined,
   });
   const [message, setMessage] = useState(
-    "Thanks for reaching out,will get back soon🙏"
+    ""
   );
   const [loading, setLoading] = useState<LoadingType>(false);
 
