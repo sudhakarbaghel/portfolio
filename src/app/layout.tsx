@@ -1,10 +1,12 @@
+"use client";
 import Topbar from "@/components/topbar/Topbar";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Leftbar from "@/components/leftbar/Leftbar";
 import SleepingCat from "@/components/sleepingCat/SleepingCat";
 import Hangingbulb from "@/components/hangingBulb/Hangingbulb";
-
+import initGa from "@/utils/Analytics/analytics";
+import { useEffect } from "react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -17,6 +19,9 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  useEffect(() => {
+    initGa();
+  }, []);
   return (
     <html lang="en">
       <body className={inter.className}>
@@ -35,8 +40,7 @@ export default function RootLayout({
           <Topbar />
           <div className="mainLayoutChild">
             <Leftbar />
-            <div className="mainLayoutContentWrap">
-              {children}</div>
+            <div className="mainLayoutContentWrap">{children}</div>
           </div>
         </div>
       </body>
