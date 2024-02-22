@@ -22,7 +22,7 @@ export default function RootLayout({
           style={{
             position: "fixed",
             left: "-80px",
-            // zIndex: 1,
+            zIndex: 1,
             bottom: "0px",
           }}
         >
