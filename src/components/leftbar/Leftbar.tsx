@@ -15,24 +15,22 @@ type Props = {};
 export default function Leftbar({}: Props) {
   const [isScrolled, setIsScrolled] = useState(false);
 
-  // Define the class name based on the scroll state
-
   const containerClassName = isScrolled ? "scrolled" : "";
   return (
     <div className={`leftbar ${containerClassName}`} style={{ color: "white" }}>
-      <Link className="link" href="/">
+      <Link scroll={false} className="link" href="/">
         <Button title="ABOUT" Icon={About} />
       </Link>
-      <Link className="link" href="/resume">
+      <Link scroll={false} className="link" href="/resume">
         <Button title="RESUME" Icon={Resume} />
       </Link>
-      <Link className="link" href="/portfolio">
+      <Link scroll={false} className="link" href="/portfolio">
         <Button title="PORTFOLIO" Icon={Portfolio} />
       </Link>
-      <Link className="link" href="/blog">
+      <Link scroll={false} className="link" href="/blog">
         <Button title="BLOG" Icon={Blog} />
       </Link>
-      <Link className="link" href="/contact">
+      <Link scroll={false} className="link" href="/contact">
         <Button title="CONTACT" Icon={Contact} />
       </Link>
     </div>

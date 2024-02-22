@@ -40,7 +40,7 @@ export default function PortfolioItem({
       <div>
         {certificateLink && (
           <a target="_blank" href={certificateLink}>
-            <div>{portfolioType} Link</div>
+            <div>Project Link</div>
           </a>
         )}
         {githubLink && (

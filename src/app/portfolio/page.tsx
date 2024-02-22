@@ -3,16 +3,16 @@ import Underline from "@/components/svgComps/Underline";
 
 import "./portfolio.scss";
 import PortfolioItem from "@/components/portfolioItem/PortfolioItem";
-import portfolioItems from "@/utils/Data/PortfolioItem";
+import portfolioItems from "@/utils/Data/PortfolioData";
 import { useEffect, useState } from "react";
 type Props = {};
 
 export default function Portfolio({}: Props) {
-  const [selectedCategory, setSelectedCategory] = useState("all"); // Initialize with "all" to show all items
+  const [selectedCategory, setSelectedCategory] = useState("all");
   const [filteredItems, setFilteredItems] = useState(portfolioItems);
   const handleSelectedCategory = (e: React.MouseEvent<HTMLLIElement>) => {
     const category = e.currentTarget.getAttribute("value");
-    setSelectedCategory(category || ""); // Set the selected category
+    setSelectedCategory(category || "");  
   };
 
   useEffect(() => {
@@ -51,7 +51,6 @@ export default function Portfolio({}: Props) {
         <li
           value="Project"
           onClick={handleSelectedCategory}
-          className={selectedCategory === "Project" ? "optionSelected" : ""}
         >
           Project
         </li>
@@ -61,6 +60,13 @@ export default function Portfolio({}: Props) {
           className={selectedCategory === "Badge" ? "optionSelected" : ""}
         >
           Badge
+        </li>
+        <li
+          value="Web3"
+          onClick={handleSelectedCategory}
+          className={selectedCategory === "Web3" ? "optionSelected" : ""}
+        >
+         Web3
         </li>
       </ul>
       <div className="portfolioItemWrapper">

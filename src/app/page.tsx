@@ -1,7 +1,13 @@
+"use client"
 import Underline from "@/components/svgComps/Underline";
+import initGA from "@/utils/Analytics/analytics";
 import "./page.scss";
+import { useEffect } from "react";
 
 export default function About() {
+  useEffect(() => {
+    initGA();
+  }, []);
   return (
     <div className="about">
       <h1>About Me</h1>

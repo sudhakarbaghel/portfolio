@@ -1,12 +1,12 @@
 const portfolioItems = [
   {
-    portfolioType: "Project",
-    certificateLink: "https://sudhakarbaghel.github.io/resume-maker/",
-    githubLink: "https://github.com/sudhakarbaghel/resume-maker",
-    techStack: "React Js, Node Js",
+    portfolioType: "Web3",
+    certificateLink: "https://nftworld-iota.vercel.app/",
+    githubLink: "https://github.com/sudhakarbaghel/nft-client",
+    techStack: "Solidity, NextJS, Ethers.js, Wagmi",
     imgSrc:
-      "https://res.cloudinary.com/dw7xu0fus/image/upload/v1691735797/Screenshot_from_2023-08-11_12-06-19_lcjoer.png",
-    heading: "Resume Maker",
+      "https://res.cloudinary.com/dw7xu0fus/image/upload/v1693464447/mjkljdifcsbqqaru2azp",
+    heading: "NFT marketplaces",
   },
   {
     portfolioType: "Project",
@@ -17,6 +17,16 @@ const portfolioItems = [
       "https://res.cloudinary.com/dw7xu0fus/image/upload/v1693464447/Screenshot_from_2023-08-31_12-17-17_t9uwtn.png",
     heading: "Booking.com clone",
   },
+  {
+    portfolioType: "Project",
+    certificateLink: "https://sudhakarbaghel.github.io/resume-maker/",
+    githubLink: "https://github.com/sudhakarbaghel/resume-maker",
+    techStack: "React Js, Node Js",
+    imgSrc:
+      "https://res.cloudinary.com/dw7xu0fus/image/upload/v1691735797/Screenshot_from_2023-08-11_12-06-19_lcjoer.png",
+    heading: "Resume Maker",
+  },
+ 
   {
     portfolioType: "Project",
     certificateLink: "https://sudhakarbaghel.github.io/trakovid",
@@ -131,6 +141,7 @@ const portfolioItems = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpvMT69gb_MUzi831hF8xm5lcgeebh1DHEiTufBwlDkMLIbxg5",
     heading: "5⭐ (C++) on Hackerrank",
   },
+ 
 ];
  
 export default portfolioItems;

@@ -7,6 +7,8 @@ import Github from "../svgComps/Github";
 import Twitter from "../svgComps/Twitter";
 import CodeChef from "../svgComps/CodeChef";
 import Link from "next/link";
+import Web3 from "../svgComps/Web3";
+import Web2 from "../svgComps/Web2"
 type Props = {};
 
 export default function Topbar({}: Props) {
@@ -23,9 +25,9 @@ export default function Topbar({}: Props) {
         </div>
         <div className="topbarLeftRightItem">
           <h4>
-            Sudhakar <span>Singh</span>
+            Sudhakar<span>.eth</span>
           </h4>
-          <div className="roles">WebDev | 4⭐codechef</div>
+          <div className="roles">Web3 <Web3/>| Web2 <Web2/>| 4⭐codechef</div>
           <div className="icons">
             <Link href="https://www.linkedin.com/in/sudhakar-singh-99b8441b2/">
               <Linkedin />
