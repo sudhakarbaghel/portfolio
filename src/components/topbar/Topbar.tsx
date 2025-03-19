@@ -29,7 +29,7 @@ export default function Topbar({}: Props) {
           </h4>
           <div className="roles">Web3 <Web3/>| Web2 <Web2/>| 4⭐codechef</div>
           <div className="icons">
-            <Link href="https://www.linkedin.com/in/sudhakar-singh-99b8441b2/">
+            <Link href="https://www.linkedin.com/in/sudhakar-singh-baghel">
               <Linkedin />
             </Link>
             <Link href="https://github.com/sudhakarbaghel">
