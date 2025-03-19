@@ -5,6 +5,8 @@
     gap: 25px;
 overflow-x: scroll;
     font-size: 0.875rem;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; 
 
     color: #aeb0b8bd;
     li:first-child {
@@ -17,6 +19,9 @@ overflow-x: scroll;
       font-weight: 600;
       color: rgb(175, 188, 198);
     }
+  }
+  .portfolioOptions::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
   }
   .portfolioItemWrapper {
     display: flex;
