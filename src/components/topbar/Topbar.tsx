@@ -68,7 +68,7 @@ export default function Topbar({}: Props) {
         </div>
         <div>
           <span>Location</span>
-          <p>Bhopal,IN</p>
+          <p>Bangalore,IN</p>
         </div>
         <div>
           <span>Status</span>
