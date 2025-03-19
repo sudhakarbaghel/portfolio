@@ -296,3 +296,46 @@ $tail-interval: (11 - 7.5) / $tail-wags;
         transform: rotate(-20deg);
     }
 }
+.message-box {
+  position: absolute;
+  top: 80px; /* Adjust to float above the cat */
+  left: 40%;
+  transform: translateX(-50%);
+  background: #fa7268;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  animation: floatMessage 2s infinite alternate ease-in-out;
+  position: relative;
+  width: min-content;
+}
+
+/* Triangle pointer */
+.message-box::after {
+  content: "";
+  position: absolute;
+  top: 97%;
+  bottom: -10px; /* Adjust to position the triangle */
+  left: 15px; /* Position towards the bottom-left */
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #fa7268; /* Matches message box color */
+}
+
+/* Floating animation */
+@keyframes floatMessage {
+  0% {
+    transform: translateX(-50%) translateY(0);
+  }
+  100% {
+    transform: translateX(-50%) translateY(-5px);
+  }
+}
+
+/* Ensure parent has relative positioning */
+ 

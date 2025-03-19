@@ -10,15 +10,35 @@
         margin-top: 20px;
         justify-content: space-between;
     }
-    .resumeSkillsContent{
+    @keyframes revolvingBorder {
+        0% {
+            box-shadow: 0 0 5px #fa7268, 0 0 10px #fa7268;
+        }
+        25% {
+            box-shadow: 0 0 10px #fa7268, 0 0 15px #ff9671;
+        }
+        50% {
+            box-shadow: 0 0 15px #ff9671, 0 0 20px #f9d423;
+        }
+        75% {
+            box-shadow: 0 0 10px #f9d423, 0 0 15px #fa7268;
+        }
+        100% {
+            box-shadow: 0 0 5px #fa7268, 0 0 10px #fa7268;
+        }
+    }
+    
+    .resumeSkillsContent {
         border: 1.5px solid #fa7268;
         padding: 20px;
         border-radius: 20px;
         display: flex;
-        gap:12px;
+        gap: 12px;
         flex-wrap: wrap;
         max-width: 650px;
+        animation: revolvingBorder 3s infinite linear;
     }
+    
     .resumeSkillsContent:hover{
         border-color: #e34c67;
     }

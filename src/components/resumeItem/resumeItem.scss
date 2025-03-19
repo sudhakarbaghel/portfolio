@@ -7,24 +7,26 @@
   margin-left: 8px;
   display: flex;
   flex-direction: column;
-  
-  gap:5px;
+
+  gap: 5px;
   h3 {
-    line-height:normal;
+    line-height: normal;
     margin-top: -4px;
- 
   }
 
   span {
-    
-    color: #aeb0b84c;
+    color: #2fb8aa;
   }
-   
+
   ul {
     margin-top: 5px;
     list-style-type: none;
     color: #aeb0b8bd;
-     
+  }
+  ul b {
+    // color: #FFD700;/
+    color: #2fb8aa;
+    /* Soft Gold */
   }
 
   ul > li:before {
@@ -42,11 +44,7 @@
     height: 0.8rem;
     width: 0.8rem;
   }
- 
-
 }
-  .resumeItem:last-child {
-   border: none;
+.resumeItem:last-child {
+  border: none;
 }
-
- 

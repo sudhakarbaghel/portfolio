@@ -2,7 +2,7 @@ import ExperienceIcon from "@/components/svgComps/ExperienceIcon";
 import Underline from "@/components/svgComps/Underline";
 import "./resume.scss";
 import ResumeItem from "@/components/resumeItem/ResumeItem";
-import { ExpData ,EduData} from "@/utils/Data/ExperienceData";
+import { ExpData, EduData } from "@/utils/Data/ExperienceData";
 import EducationIcon from "@/components/svgComps/EducationIcon";
 import SkillsIcon from "@/components/svgComps/SkillsIcon";
 import Skill from "@/components/skill/Skill";
@@ -21,9 +21,11 @@ import ScrapingIcon from "@/components/svgComps/skillsIcon/ScrapingIcon";
 import AlgoIcon from "@/components/svgComps/skillsIcon/AlgoIcon";
 import DataStrucIcon from "@/components/svgComps/skillsIcon/DataStrucIcon";
 import TsIcon from "@/components/svgComps/skillsIcon/TsIcon";
-import AntDesignIcon from "@/components/svgComps/skillsIcon/AntdIcon"
-import AuthIcon from "@/components/svgComps/skillsIcon/AuthIcon"
-import LinuxIcon from "@/components/svgComps/skillsIcon/LinuxIcon"
+import AntDesignIcon from "@/components/svgComps/skillsIcon/AntdIcon";
+import AuthIcon from "@/components/svgComps/skillsIcon/AuthIcon";
+import LinuxIcon from "@/components/svgComps/skillsIcon/LinuxIcon";
+import AwsIcon from "@/components/svgComps/skillsIcon/AwsIcon";
+import SolidityIcon from "@/components/svgComps/skillsIcon/SolidityIcon";
 type Props = {};
 
 export default function Resume({}: Props) {
@@ -45,7 +47,7 @@ export default function Resume({}: Props) {
           <Skill skill="SCSS" Icon={ScssIcon} />
           <Skill skill="React.js" Icon={ReactIcon} />
           <Skill skill="Next.js" Icon={NextIcon} />
-          <Skill skill="TypeScript.js" Icon={TsIcon } />
+          <Skill skill="TypeScript.js" Icon={TsIcon} />
           <Skill skill="Redux" Icon={ReduxIcon} />
           <Skill skill="Node.js" Icon={NodeIcon} />
           <Skill skill="Express.js" Icon={ExpressIcon} />
@@ -56,6 +58,8 @@ export default function Resume({}: Props) {
           <Skill skill="Mongo DB" Icon={MongoIcon} />
           <Skill skill="Web Scraping" Icon={ScrapingIcon} />
           <Skill skill="Ant Design" Icon={AntDesignIcon} />
+          <Skill skill="AWS" Icon={AwsIcon} />
+          <Skill skill="Solidity" Icon={SolidityIcon} />
         </div>
       </div>
       <h2>
@@ -67,7 +71,7 @@ export default function Resume({}: Props) {
           <ResumeItem
             title={item.title}
             date={item.date}
-            content={item.content}
+            content={item.content.map((line) => ({ __html: line }))}
             key={index}
           />
         );
@@ -83,7 +87,7 @@ export default function Resume({}: Props) {
               <ResumeItem
                 title={item.title}
                 date={item.date}
-                content={item.content}
+                content={item.content.map((line) => ({ __html: line }))}
                 key={index}
               />
             );
