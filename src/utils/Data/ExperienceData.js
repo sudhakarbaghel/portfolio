@@ -12,7 +12,7 @@ export const ExpData = [
     //   "Developed a custom timeline chart in <b>React</b> to visualize coal-to-renewable transition timelines with interactive data representation."
     // ]
     content:[
-      [
+      
         "<b>Led</b> frontend development for <b><a href='ngainews.com' target='_blank'>Next generation AI News</a></b> and migration of <b><a href='sustainabilityeconomicsnews.com' target='_blank'>Sustainability Economics News</a></b> from <b>WordPress</b> to <b>Next.js</b>, implementing <b>Server Actions</b>, <b>Server Side Rendering</b>, <b>Incremental Static Regenerated</b> articles with dynamic <b>sitemap</b> generation, <b>RSS feeds</b>, and optimized <b>SEO</b> <b>metadata</b> for enhanced <b>discoverability</b> and above <b>95 Lighthouse Scores</b>.",
         "Developed <b>fallback</b> logic for dynamic file path hashes in <b>lazy loaded</b> <b>Next.js</b> builds, ensuring cache-resilient UX and seamless deployments <b>without downtime</b>. Enhanced performance with <b>Jest</b> tests (<b>95% coverage</b>) and <b>Chart.js</b> visualizations.",
         "<b>Implemented end-to-end</b> <b>OAuth</b> (LinkedIn, Google) <b>authentication</b> via <b>NextAuth.js</b>, utilizing secure <b>server-side session</b> <b>management</b> for robust and <b>scalable</b> user access control.",
@@ -21,7 +21,7 @@ export const ExpData = [
         "Integrated <b>Mapbox API</b> and <b>TIF</b> <b>file</b> mapping to identify <b>solar/hydro</b> sites and predict <b>heat/water/wind hazards</b> for real estate, showcasing <b>energy shifts</b> over time with interactive data representation.",
         "<b>Refactored API calls</b> from <b>Redux Thunk</b> to <b>Redux Toolkit</b> Query, optimizing data fetching, <b>eliminating 40% of redundant API requests</b>, and <b>reducing cloud infrastructure costs</b>.",
         "Integrated <b>Smart Contracts</b> using <b>Wagmi</b> for <b>Carbon Credit's Marketplace</b> (3K+ transactions/month).</li>"
-      ]
+      
     ]
   },
   {
