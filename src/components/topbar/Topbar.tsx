@@ -61,7 +61,7 @@ export default function Topbar({}: Props) {
           <span>CV</span>
           <Link
             style={{ textDecoration: "none" }}
-            href="https://drive.google.com/drive/folders/1rsgp_pnvzJVdF5C79WSuZJ_AUjkNniS0"
+            href="https://drive.google.com/file/d/1Mv6FwgRKXzMUnB237xrqGiJLW-xxHMM7/view?usp=sharing"
           >
             <p>Download</p>
           </Link>
