@@ -35,6 +35,11 @@ import HardhatIcon from "@/components/svgComps/skillsIcon/HardhatIcon";
 
 type Props = {};
 
+export const metadata = {
+  title: "Resume | Sudhakar Singh Baghel",
+  description: "Professional experience, education, skills, and technical background of Sudhakar Singh Baghel.",
+};
+
 export default function Resume({}: Props) {
   return (
     <div className="resume">
