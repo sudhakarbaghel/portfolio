@@ -12,6 +12,48 @@
   h3 {
     line-height: normal;
     margin-top: -4px;
+
+    a {
+      color: #3086ff;
+      text-decoration: none;
+      transition: color 0.2s ease;
+      border-bottom: 1.5px solid transparent;
+
+      &:hover {
+        color: #2fb8aa;
+        border-bottom: 1.5px solid #2fb8aa;
+      }
+    }
+  }
+
+  .resumeItemTitle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+
+    .companyLinks {
+      display: flex;
+      gap: 6px;
+    }
+
+    .companyLink {
+      font-size: 11px;
+      font-weight: 500;
+      padding: 2px 8px;
+      border-radius: 20px;
+      border: 1px solid #2fb8aa55;
+      color: #2fb8aa;
+      text-decoration: none;
+      background: #2fb8aa10;
+      transition: background 0.2s, border-color 0.2s, color 0.2s;
+
+      &:hover {
+        background: #2fb8aa25;
+        border-color: #2fb8aa;
+        color: #fff;
+      }
+    }
   }
 
   span {

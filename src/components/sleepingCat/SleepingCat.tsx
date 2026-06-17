@@ -4,16 +4,23 @@ import "./sleepingCat.scss";
 
 type Props = {};
 
-export default function SleepingCat({}: Props) {
-  const devPuns = [
-    "I'm EatSleepScript Developer",
-    "I'm not lazy, just in an infinite loop...",
-    "404: Sleep Not Found",
-    "Currently debugging my dreams...",
-    "BRB... Deploying to Dream Server",
-    "Refactoring my sleep cycle",
-  ];
+const devPuns = [
+  "I'm EatSleepScript Developer",
+  "I'm not lazy, just in an infinite loop...",
+  "404: Sleep Not Found",
+  "Currently debugging my dreams...",
+  "BRB... Deploying to Dream Server",
+  "Refactoring my sleep cycle",
+  "Purr-fectly compiled!",
+  "Compiling: 9 lives left...",
+  "JavaScript? More like Java-scratch!",
+  "Git commit -m 'fed the cat'",
+  "Cat-astrophic error in production!",
+  "Meow-croservices architect",
+  "Slept for 8 hours (in dev-time: 5 mins)"
+];
 
+export default function SleepingCat({}: Props) {
   const [message, setMessage] = useState(devPuns[0]);
 
   useEffect(() => {

@@ -6,72 +6,41 @@ const portfolioItems = [
     techStack: "Solidity, NextJS, Ethers.js, Wagmi",
     imgSrc:
       "https://res.cloudinary.com/dw7xu0fus/image/upload/v1693464447/mjkljdifcsbqqaru2azp",
-    heading: "NFT marketplaces",
+    heading: "NFT Marketplace",
   },
   {
     portfolioType: "Project",
     certificateLink: null,
     githubLink: "https://github.com/sudhakarbaghel/booking.com-clone",
-    techStack: "React Js, Node Js, Express, Mongo DB, JWT's",
+    techStack: "ReactJS, Redux, NodeJS, Express.js, MongoDB",
     imgSrc:
       "https://res.cloudinary.com/dw7xu0fus/image/upload/v1693464447/Screenshot_from_2023-08-31_12-17-17_t9uwtn.png",
-    heading: "Booking.com clone",
-  },
-  {
-    portfolioType: "Project",
-    certificateLink: "https://sudhakarbaghel.github.io/resume-maker/",
-    githubLink: "https://github.com/sudhakarbaghel/resume-maker",
-    techStack: "React Js, Node Js",
-    imgSrc:
-      "https://res.cloudinary.com/dw7xu0fus/image/upload/v1691735797/Screenshot_from_2023-08-11_12-06-19_lcjoer.png",
-    heading: "Resume Maker",
-  },
- 
-  {
-    portfolioType: "Project",
-    certificateLink: "https://sudhakarbaghel.github.io/trakovid",
-    githubLink: "https://github.com/sudhakarbaghel/booking.com-clone",
-    techStack: "React Js, Typescript.js, Redux",
-    imgSrc:
-      "https://user-images.githubusercontent.com/88780692/241116564-592eea7b-57db-4bf1-a54c-beb4a807c49e.png",
-    heading: "Trakovid: Covid tracker",
-  },
-  {
-    portfolioType: "Project",
-    certificateLink: "https://sudhakarbaghel.github.io/invoiceGenerator/",
-    githubLink: "https://github.com/sudhakarbaghel/invoiceGenerator",
-    techStack: "React Js,CSS",
-    imgSrc:
-      "https://user-images.githubusercontent.com/88780692/230784388-6730385f-4f67-47f8-9ede-aea62881c446.png",
-    heading: "Invoice generator",
-  },
-
-  {
-    portfolioType: "Project",
-    certificateLink: null,
-    githubLink: "https://github.com/sudhakarbaghel/firebase-chat-app",
-    techStack: "React js, Firebase",
-    imgSrc:
-      "https://firebase.google.com/static/codelabs/firebase-android/img/screenshot_960.png",
-    heading: "Chat app",
+    heading: "Next-Gen Booking Solution with a Booking.com Influence",
   },
   {
     portfolioType: "Project",
     certificateLink: null,
     githubLink: "https://github.com/sudhakarbaghel/React-blog-app",
-    techStack: "React js, Mongo DB, Node js, Express js",
+    techStack: "ReactJS, NodeJS, Express, HTML, CSS",
     imgSrc:
       "https://res.cloudinary.com/dw7xu0fus/image/upload/v1693473423/Screenshot_from_2023-08-31_14-45-47_auscje.png",
-    heading: "Blog app",
+    heading: "Blog Application",
   },
   {
     portfolioType: "Project",
-    certificateLink: "https://sudhakarbaghel.github.io/Book-terminal-app/",
-    githubLink: "https://github.com/sudhakarbaghel/Book-terminal-app",
-    techStack: "HTML ,CSS, Bootstrap",
-    imgSrc:
-      "https://res.cloudinary.com/dw7xu0fus/image/upload/v1693465384/Screenshot_from_2023-08-31_12-32-47_ditv3a.png",
-    heading: "Book Terminal: Connecting bibliophiles",
+    certificateLink: null,
+    githubLink: "https://github.com/sudhakarbaghel/portfolio",
+    techStack: "Next JS, App Router, Scss, TypeScript",
+    imgSrc: "/portfolio_mockup.png",
+    heading: "Personal Portfolio",
+  },
+  {
+    portfolioType: "Project",
+    certificateLink: null,
+    githubLink: null,
+    techStack: "React.js, Redux Toolkit, Node.js, Express, MongoDB",
+    imgSrc: "/dispatch_tracker_mockup.png",
+    heading: "Dispatch Tracker",
   },
   {
     portfolioType: "Certificate",
@@ -141,7 +110,6 @@ const portfolioItems = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpvMT69gb_MUzi831hF8xm5lcgeebh1DHEiTufBwlDkMLIbxg5",
     heading: "5⭐ (C++) on Hackerrank",
   },
- 
 ];
- 
+
 export default portfolioItems;

@@ -3,7 +3,8 @@
   background-color: #09080c;
   border-radius: 1.5rem;
   display: flex;
-  padding: 30px;
+  align-items: center;
+  padding: 20px 30px;
   gap: 8px;
   .verticalRule {
     border-left: 1px solid #33363d !important;
@@ -14,7 +15,6 @@
     display: flex;
     gap: 20px;
     width: 50%;
-
     align-items: center;
 
     .roles {
@@ -36,14 +36,32 @@
   }
 
   .topbarLeftRightItem {
-    align-self: start;
+    align-self: center;
+    .statusBadge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: linear-gradient(90deg, #fa7268, #f9a825, #fa7268);
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      font-weight: 700;
+      font-size: 12px;
+      margin: 3px 0 6px;
+      animation: shimmer 2.5s linear infinite;
+    }
   }
   .imgWrap {
     border-radius: 45px;
-
     overflow: hidden;
     width: max-content;
+    flex-shrink: 0;
     margin-top: -70px;
+    margin-bottom: -20px;
+    img {
+      display: block;
+    }
   }
   .icons {
     display: flex;
@@ -71,6 +89,11 @@
       color: white;
       font-weight: 500;
     }
+  }
+
+  @keyframes shimmer {
+    0% { background-position: 0% center; }
+    100% { background-position: 200% center; }
   }
 }
 

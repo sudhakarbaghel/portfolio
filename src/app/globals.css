@@ -5,13 +5,10 @@
 }
 .mainLayout {
   max-width: 1150px;
-
-  /* max-width: ; */
-  padding-top: 96px;
+  padding-top: 40px;
   display: flex;
   flex-direction: column;
   gap: 28px;
-
   margin: auto;
 }
 

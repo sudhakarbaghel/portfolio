@@ -20,20 +20,20 @@ export default function About() {
         Madhya Pradesh, India.
       </p>
       <p>
-        My professional journey has been focused on web development, and I have
+        My professional journey has been focused on software and web development, and I have
         gained proficiency in languages such as <strong>C++</strong>,{" "}
         <strong>HTML</strong>, <strong>CSS</strong>, and{" "}
-        <strong>JavaScript</strong>. I have a strong understanding of data
+        <strong>JavaScript/TypeScript</strong>. I have a strong understanding of data
         structures, algorithms, and database management systems like{" "}
-        <strong>MySQL</strong> and <strong>MongoDB</strong>. Additionally, I
-        have experience in working with popular frameworks and libraries such as{" "}
+        <strong>MySQL</strong>, <strong>MongoDB</strong>, and <strong>DynamoDB</strong>. Additionally, I
+        have experience in working with modern frameworks, cloud architectures, and methodologies such as{" "}
         <strong>Next.js</strong>, <strong>React.js</strong>,{" "}
-        <strong>Node.js</strong>, <strong>Typescript</strong>,{" "}
-        <strong>Redux</strong>, and <strong>Scss</strong>.
+        <strong>Node.js</strong>, <strong>Nest.js</strong>,{" "}
+        <strong>Redux</strong>, <strong>AWS (SQS, Kinesis)</strong>, <strong>Docker</strong>, and <strong>Microservices</strong>.
       </p>
       <p>
         Outside of my technical pursuits, I have achieved notable success on{" "}
-        <strong>CODECHEF</strong>, with global rankings in various competitions.
+        <strong>CODECHEF</strong> (4★ competitive programmer, max rating), with global rankings in various competitions.
       </p>
       <p>
         While technology remains a significant part of my life and career, I

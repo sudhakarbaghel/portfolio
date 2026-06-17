@@ -26,6 +26,13 @@ import AuthIcon from "@/components/svgComps/skillsIcon/AuthIcon";
 import LinuxIcon from "@/components/svgComps/skillsIcon/LinuxIcon";
 import AwsIcon from "@/components/svgComps/skillsIcon/AwsIcon";
 import SolidityIcon from "@/components/svgComps/skillsIcon/SolidityIcon";
+import DockerIcon from "@/components/svgComps/skillsIcon/DockerIcon";
+import NestIcon from "@/components/svgComps/skillsIcon/NestIcon";
+import DynamoDBIcon from "@/components/svgComps/skillsIcon/DynamoDBIcon";
+import MicroservicesIcon from "@/components/svgComps/skillsIcon/MicroservicesIcon";
+import GrpcIcon from "@/components/svgComps/skillsIcon/GrpcIcon";
+import HardhatIcon from "@/components/svgComps/skillsIcon/HardhatIcon";
+
 type Props = {};
 
 export default function Resume({}: Props) {
@@ -47,19 +54,26 @@ export default function Resume({}: Props) {
           <Skill skill="SCSS" Icon={ScssIcon} />
           <Skill skill="React.js" Icon={ReactIcon} />
           <Skill skill="Next.js" Icon={NextIcon} />
-          <Skill skill="TypeScript.js" Icon={TsIcon} />
+          <Skill skill="TypeScript" Icon={TsIcon} />
           <Skill skill="Redux" Icon={ReduxIcon} />
           <Skill skill="Node.js" Icon={NodeIcon} />
           <Skill skill="Express.js" Icon={ExpressIcon} />
-          <Skill skill="My Sql" Icon={MySqlIcon} />
-          <Skill skill="Mongo DB" Icon={MongoIcon} />
-          <Skill skill="OAuth 2.O" Icon={AuthIcon} />
+          <Skill skill="MySQL" Icon={MySqlIcon} />
+          <Skill skill="MongoDB" Icon={MongoIcon} />
+          <Skill skill="OAuth" Icon={AuthIcon} />
           <Skill skill="Linux" Icon={LinuxIcon} />
-          <Skill skill="Mongo DB" Icon={MongoIcon} />
           <Skill skill="Web Scraping" Icon={ScrapingIcon} />
           <Skill skill="Ant Design" Icon={AntDesignIcon} />
           <Skill skill="AWS" Icon={AwsIcon} />
+          <Skill skill="AWS SQS" Icon={AwsIcon} />
+          <Skill skill="AWS Kinesis" Icon={AwsIcon} />
+          <Skill skill="DynamoDB" Icon={DynamoDBIcon} />
+          <Skill skill="Nest.js" Icon={NestIcon} />
+          <Skill skill="Docker" Icon={DockerIcon} />
+          <Skill skill="Microservices" Icon={MicroservicesIcon} />
+          <Skill skill="gRPC" Icon={GrpcIcon} />
           <Skill skill="Solidity" Icon={SolidityIcon} />
+          <Skill skill="Hardhat" Icon={HardhatIcon} />
         </div>
       </div>
       <h2>
@@ -69,7 +83,7 @@ export default function Resume({}: Props) {
       {ExpData.map((item, index) => {
         return (
           <ResumeItem
-            title={item.title}
+            titleHtml={item.titleHtml}
             date={item.date}
             content={item.content.map((line) => ({ __html: line }))}
             key={index}
@@ -85,7 +99,7 @@ export default function Resume({}: Props) {
           {EduData.map((item, index) => {
             return (
               <ResumeItem
-                title={item.title}
+                titleHtml={item.title}
                 date={item.date}
                 content={item.content.map((line) => ({ __html: line }))}
                 key={index}

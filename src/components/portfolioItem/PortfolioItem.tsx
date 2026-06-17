@@ -1,6 +1,4 @@
 import "./portfolioItem.scss";
-import Pic from "../../../public/pass.jpeg";
-import Image from "next/image";
 
 type Props = {
   certificateLink: string | null;

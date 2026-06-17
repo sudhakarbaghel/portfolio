@@ -1,7 +1,7 @@
 import React from "react";
 import "./topbar.scss";
 import Image from "next/image";
-import Pic from "../../../public/pass.jpeg";
+import Pic from "../../../public/profile.jpeg";
 import Linkedin from "../svgComps/Linkedin";
 import Github from "../svgComps/Github";
 import Twitter from "../svgComps/Twitter";
@@ -20,14 +20,15 @@ export default function Topbar({}: Props) {
             src={Pic}
             width={151}
             height={151}
-            alt="Picture of the author"
+            alt="Sudhakar Singh Baghel"
           />
         </div>
         <div className="topbarLeftRightItem">
           <h4>
             Sudhakar<span>.eth</span>
           </h4>
-          <div className="roles">Web3 <Web3/>| Web2 <Web2/>| 4⭐codechef</div>
+          <div className="roles">Backend SWE · MERN · 4⭐ CodeChef</div>
+          <p className="statusBadge">🚀 Open to Work</p>
           <div className="icons">
             <Link href="https://www.linkedin.com/in/sudhakar-singh-baghel">
               <Linkedin />
@@ -61,18 +62,18 @@ export default function Topbar({}: Props) {
           <span>CV</span>
           <Link
             style={{ textDecoration: "none" }}
-            href="https://drive.google.com/file/d/1Mv6FwgRKXzMUnB237xrqGiJLW-xxHMM7/view?usp=sharing"
+            href="https://drive.google.com/file/d/1zQmSRPzuef-VlY9WCi0QLk85XiLS5Iv1/view?usp=sharing"
           >
             <p>Download</p>
           </Link>
         </div>
         <div>
           <span>Location</span>
-          <p>Bangalore,IN</p>
+          <p>Bangalore, IN</p>
         </div>
         <div>
-          <span>Status</span>
-          <p>🚀</p>
+          <span>Phone</span>
+          <p>+91-8770713153</p>
         </div>
       </div>
     </div>
