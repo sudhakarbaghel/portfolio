@@ -83,6 +83,7 @@ export default function Resume({}: Props) {
       {ExpData.map((item, index) => {
         return (
           <ResumeItem
+            company={item.company}
             titleHtml={item.titleHtml}
             date={item.date}
             content={item.content.map((line) => ({ __html: line }))}

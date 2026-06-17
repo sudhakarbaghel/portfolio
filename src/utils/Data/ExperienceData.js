@@ -1,5 +1,6 @@
 export const ExpData = [
   {
+    company: "DocuSign",
     titleHtml: `<a href="https://www.linkedin.com/company/docusign/life/makeyourmark/">DocuSign</a>, Backend Software Engineer`,
     date: "May 2025 - Present",
     content: [
@@ -15,6 +16,7 @@ export const ExpData = [
     ]
   },
   {
+    company: "Sustainability Economics",
     titleHtml: `<a href="https://www.linkedin.com/company/sustainabilityeconomics/">Sustainability Economics</a>, SDE`,
     date: "May 2024 - May 2025",
     content: [
@@ -29,6 +31,7 @@ export const ExpData = [
     ]
   },
   {
+    company: "Syvora",
     titleHtml: `<a href="https://www.linkedin.com/company/syvora/">Syvora</a>, ASE`,
     date: "Nov 2023 - May 2024",
     content: [
@@ -40,6 +43,7 @@ export const ExpData = [
     ]
   },
   {
+    company: "OpenSense Labs",
     titleHtml: `<a href="https://www.linkedin.com/company/opensenselabs/">OpenSense Labs</a>, Software Engineer Intern`,
     date: "Jul 2023 - Oct 2023",
     content: [
@@ -52,6 +56,7 @@ export const ExpData = [
     ]
   },
   {
+    company: "Areksoft Technologies",
     titleHtml: `<a href="https://www.linkedin.com/company/areksoft-technologies/">Areksoft Technologies</a>, Software Engineer Intern`,
     date: "Dec 2022 - Apr 2023",
     content: [
