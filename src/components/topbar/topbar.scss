@@ -98,27 +98,45 @@
 }
 
 @media(max-width:700px) {
-  .topbar{
+  .topbar {
     flex-direction: column;
-    // text-align: center;
+    padding: 30px 20px;
   }
-  .topbarLeft{
+  .topbarLeft {
     flex-direction: column;
-   
+    align-items: center;
+    text-align: center;
+    width: 100% !important;
   }
-  .verticalRule{
-    // display: none;
+  .topbarLeftRightItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  }
+  .verticalRule {
     border: none;
     border-top: 1px solid #33363d;
+    width: 100%;
+    margin: 20px 0;
   }
-  .topbarLeftRightItem{
-  margin: auto;
-  }
-  .topbarRight{
-    padding: 0px;
-    // display: none;
-  }
-  .topbarLeft ,.topbarRight{
+  .topbarRight {
     width: 100% !important;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+
+    div {
+      width: 100% !important;
+      flex: 100% !important;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
   }
 }
