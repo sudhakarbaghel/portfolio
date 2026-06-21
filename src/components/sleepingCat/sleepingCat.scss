@@ -309,8 +309,8 @@ $tail-interval: (11 - 7.5) / $tail-wags;
   font-weight: bold;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   animation: floatMessage 2s infinite alternate ease-in-out;
-  position: relative;
   width: min-content;
+  z-index: 10;
 }
 
 /* Triangle pointer */

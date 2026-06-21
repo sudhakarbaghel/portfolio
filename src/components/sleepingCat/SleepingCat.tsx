@@ -26,7 +26,7 @@ export default function SleepingCat({}: Props) {
   useEffect(() => {
     const interval = setInterval(() => {
       setMessage(devPuns[Math.floor(Math.random() * devPuns.length)]);
-    }, 10000); 
+    }, 60000); 
 
     return () => clearInterval(interval);
   }, []);
